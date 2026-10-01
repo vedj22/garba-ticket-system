@@ -26,9 +26,7 @@ function SuccessContent() {
         Thank you for purchasing your Garba tickets.
       </p>
 
-      <p style={{ marginTop: "15px" }}>
-        Your payment has been received successfully.
-      </p>
+      <p>Your payment has been received successfully.</p>
 
       <h2 style={{ marginTop: "40px" }}>
         See you on October 23, 2026!
@@ -40,14 +38,7 @@ function SuccessContent() {
         <strong>Email:</strong> {email}
       </p>
 
-      <p
-        style={{
-          marginTop: "15px",
-          color: "#666",
-          fontSize: "14px",
-          wordBreak: "break-all",
-        }}
-      >
+      <p style={{ wordBreak: "break-all" }}>
         <strong>Session ID:</strong> {sessionId}
       </p>
     </main>
